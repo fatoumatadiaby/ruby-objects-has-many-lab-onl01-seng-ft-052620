@@ -14,7 +14,7 @@ class Artist
 
   def add_song(name) 
     Song.all.each do |song| 
-        binding.pry 
+        # binding.pry 
     song.artist = self 
    end 
   end 
