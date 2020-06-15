@@ -8,12 +8,13 @@ class Artist
   end 
 
  def songs 
-   binding.pry 
+  # binding.pry 
   Song.all 
  end 
 
   def add_song(name) 
     Song.all.each do |song| 
+        binding.pry 
     song.artist = self 
    end 
   end 
